@@ -80,6 +80,6 @@ Design App is distributed under the proprietary terms in [`LICENSE`](LICENSE). T
 
 ## Version and publication
 
-Version **1.1.2**, published on npm. The project website is configured for GitHub Pages. See [PUBLISHING.md](PUBLISHING.md) for the Debian publishing guide.
+Version **1.1.3**, published on npm. The project website is configured for GitHub Pages. See [PUBLISHING.md](PUBLISHING.md) for the Debian publishing guide.
 
 Maintainer: [@kathennn](https://github.com/kathennn)
