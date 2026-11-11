@@ -3,7 +3,10 @@
 <p align="center"><img src="assets/grok_1794419957728.jpg" alt="Design App artwork" width="720"></p>
 <p align="center"><strong>Six specialist engineering skills. One installer. A broad ecosystem of compatible AI coding agents.</strong></p>
 
-Design App is a portable Agent Skills package for engineering desktop applications with Tauri 2, Rust, Svelte 5, TypeScript and Vite. It includes six focused skills and their technical reference material.
+Design App is a portable Agent Skills package for engineering desktop applications with Tauri 2, Rust, Svelte 5, TypeScript and Vite. It includes six focused skills and their technical references.
+
+**Languages:** English · [Español](README.es.md)
+**Publishing guide:** [Publish to npm from Debian](PUBLISHING.md)
 
 ## One-command installation
 
@@ -13,21 +16,19 @@ Run in the project directory where you want the skills installed:
 npx -y design-app-tauri-rust-svelte
 ```
 
-By default, the installer installs all six skills into project-level directories for the supported agents in its compatibility registry. Shared Agent Skills locations (such as `.agents/skills/`) are written once.
-
-Install globally for your user account:
+Global installation:
 
 ```bash
 npx -y design-app-tauri-rust-svelte --global
 ```
 
-Choose agents:
+Select agents:
 
 ```bash
 npx -y design-app-tauri-rust-svelte --agent claude-code,codex,cursor
 ```
 
-Preview, list, and uninstall:
+Preview, list agents, and uninstall:
 
 ```bash
 npx -y design-app-tauri-rust-svelte --dry-run
@@ -35,13 +36,13 @@ npx -y design-app-tauri-rust-svelte list-agents
 npx -y design-app-tauri-rust-svelte uninstall
 ```
 
-The installer refuses to overwrite an existing skill directory unless it contains this package's ownership marker. Re-running install updates only package-managed copies. Uninstall removes only those managed copies.
+The installer will not overwrite existing skills it does not manage. Reinstallation updates package-managed copies; uninstall removes only copies carrying its ownership marker.
 
 ## Supported agent ecosystem
 
-The compatibility registry follows the public Agent Skills directory conventions for Claude Code, Codex, Cursor, Gemini CLI, GitHub Copilot, OpenCode, Cline, Windsurf, Roo Code, OpenClaw, Amp, Goose, Kiro CLI, Qwen Code, Continue and many others.
+The compatibility registry follows public Agent Skills directory conventions for Claude Code, Codex, Cursor, Gemini CLI, GitHub Copilot, OpenCode, Cline, Windsurf, Roo Code, OpenClaw, Amp, Goose, Kiro CLI, Qwen Code, Continue and others.
 
-Agent Skills is a shared format, not a guarantee that every AI product supports skills. Compatibility depends on each host recognizing the Agent Skills specification and loading skills from its documented directory. Proprietary agents may require a future adapter. See the [upstream supported-agent matrix](https://github.com/vercel-labs/skills/blob/main/docs/agents.md).
+Agent Skills is a shared format, not a guarantee that every AI product supports skills. Each host must recognize the specification and load skills from its documented directory. Proprietary agents may require an adapter. See the [upstream compatibility matrix](https://github.com/vercel-labs/skills/blob/main/docs/agents.md).
 
 ## Included skills
 
@@ -54,30 +55,28 @@ Agent Skills is a shared format, not a guarantee that every AI product supports 
 | `project-manager` | Plans milestones, risks and acceptance criteria |
 | `technical-writer` | Creates technical docs and release notes |
 
-Each skill contains its own `references/` directory so references remain available when a skill is installed independently.
+Each skill contains its own references so it can be installed independently.
 
-## Installer details
+## Requirements and development
 
 - Node.js 18 or newer; no runtime dependencies.
-- Project-local installation by default; `--global` uses user-level agent directories.
-- `--agent all` is the default; selected agent IDs can be comma-separated.
-- Re-running installation updates package-managed files.
-- Uninstall removes only directories bearing this package's ownership marker.
-- The installer copies skill content and does not execute scripts from skill files.
+- Project-local installation by default; `--global` uses user-level directories.
+- `--agent all` is the default; selected IDs can be comma-separated.
 - Reload the target agent if it does not discover new skills immediately.
-
-## Development and verification
 
 ```bash
 npm test
 npm run pack:check
+node --check bin/design-app.js
 node bin/design-app.js list-agents
 ```
 
-## Version
+## License and ownership
 
-Installer/package version: **1.1.0**. Prepared for npm publication; not published yet.
+Design App is distributed under the proprietary terms in [`LICENSE`](LICENSE). They permit downloading, installing, and using the skills, including technical copies required for installation and execution. They do not grant permission to modify or redistribute the Materials. All rights are reserved by the copyright holder. This is a project-specific proprietary agreement, not an OSI-approved open-source license. Read the full terms before use.
 
-## Maintainer
+## Version and publication
 
-[@kathennn](https://github.com/kathennn)
+Version **1.1.1**. The npm release is prepared but **has not been published**. See [PUBLISHING.md](PUBLISHING.md) for the Debian publishing guide.
+
+Maintainer: [@kathennn](https://github.com/kathennn)
