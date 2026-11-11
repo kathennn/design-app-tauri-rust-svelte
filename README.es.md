@@ -82,6 +82,6 @@ Design App se distribuye bajo los términos propietarios de [`LICENSE`](LICENSE)
 
 ## Versión y publicación
 
-Versión **1.1.1**, publicada en npm. La web del proyecto se configura mediante GitHub Pages. Consulta [PUBLISHING.md](PUBLISHING.md) para seguir el proceso desde Debian.
+Versión **1.1.2**, publicada en npm. La web del proyecto se configura mediante GitHub Pages. Consulta [PUBLISHING.md](PUBLISHING.md) para seguir el proceso desde Debian.
 
 [@kathennn](https://github.com/kathennn)

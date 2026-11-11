@@ -1,6 +1,6 @@
 {
   "name": "design-app-tauri-rust-svelte",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Six AI Agent Skills and a cross-agent npm installer for Tauri 2, Rust, Svelte 5, TypeScript and Vite desktop app development.",
   "license": "SEE LICENSE IN LICENSE",
   "author": "kathennn",
