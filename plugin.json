@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "design-app-tauri-rust-svelte",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A modular software-engineering assistant for researching, architecting, building, testing, documenting, and maintaining desktop applications with Tauri 2, Rust, Svelte 5, TypeScript, Vite, and optionally SvelteKit.",
   "author": {
     "name": "kathennn"

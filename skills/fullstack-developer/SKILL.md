@@ -12,7 +12,7 @@ Implement complete, maintainable desktop application features across the Svelte 
 - Inspect the repository, git status, package manifests, lockfiles, config, source conventions, and tests.
 - Identify exact framework versions and current architecture.
 - Understand the user story and acceptance criteria.
-- Read shared `references/architecture-standards.md`, `references/tauri-rust-guidelines.md`, `references/svelte-typescript-guidelines.md`, `references/security-standards.md`, and `references/testing-standards.md` as relevant.
+- Read the skill-local `references/architecture-standards.md`, `references/tauri-rust-guidelines.md`, `references/svelte-typescript-guidelines.md`, `references/security-standards.md`, and `references/testing-standards.md` as relevant.
 - Propose a small implementation plan for multi-file or risky changes, then proceed autonomously when safe.
 
 ## Frontend
@@ -57,7 +57,7 @@ Implement complete, maintainable desktop application features across the Svelte 
 - Inspect the diff and check for accidental secrets, generated files, or unrelated edits.
 
 ## Commands and verification
-- Discover scripts from `package.json`, Rust commands from project docs/config, and available toolchains before running commands.
+- Discover scripts from the skill-local  directory`package.json`, Rust commands from the skill-local  directoryproject docs/config, and available toolchains before running commands.
 - Typical checks may include `pnpm check`, `pnpm lint`, `pnpm test`, `pnpm build`, `cargo fmt --check`, `cargo clippy --all-targets --all-features -- -D warnings`, and `cargo test`; run only commands applicable to the repository.
 - For Tauri packaging, use the project's documented target and installed prerequisites. Do not claim a package is built unless output confirms it.
 - If command execution is unavailable, provide exact commands and clearly mark them unexecuted.

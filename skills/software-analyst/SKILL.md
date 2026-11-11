@@ -43,7 +43,7 @@ Evaluate application behavior and engineering quality using observable evidence 
 2. Gather evidence: source, tests, logs, config, dependency manifests, and command output.
 3. Rank findings by severity, likelihood, and impact.
 4. For each finding, provide location, reproduction/evidence, consequence, and recommended fix.
-5. Separate confirmed defects from hypotheses and improvement opportunities.
+5. Separate confirmed defects from the skill-local  directoryhypotheses and improvement opportunities.
 6. Re-run targeted checks after fixes and report actual results.
 
 ## Reporting

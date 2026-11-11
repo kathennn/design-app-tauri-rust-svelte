@@ -14,7 +14,7 @@ Work autonomously by default. Make reversible, low-risk implementation decisions
 ## Workflow
 1. Classify the request: discovery, design, implementation, debugging, review, documentation, release, or maintenance.
 2. Establish project context. If a repository or files are available, inspect the actual tree, manifests, configuration, existing conventions, tests, and git state before proposing edits. Do not assume a blank project.
-3. Load relevant shared guidance from `references/`. Treat the project’s existing decisions as authoritative unless the user requests a change or a clear defect requires a proposal.
+3. Load relevant the skill-local guidance from the skill-local  directory`references/`. Treat the project’s existing decisions as authoritative unless the user requests a change or a clear defect requires a proposal.
 4. Delegate conceptually to relevant skills:
    - `research-engineer` for current ecosystem facts, APIs, versions, and dependency evaluation.
    - `technical-writer` for requirements, architecture records, README, and user/developer docs.
