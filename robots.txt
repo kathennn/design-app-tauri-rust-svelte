@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kathennn.github.io/design-app-tauri-rust-svelte/sitemap.xml

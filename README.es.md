@@ -6,6 +6,10 @@
 
 Design App es un paquete portable basado en Agent Skills para desarrollar aplicaciones de escritorio con Tauri 2, Rust, Svelte 5, TypeScript y Vite. Incluye seis skills y su documentación técnica.
 
+**Web:** https://kathennn.github.io/design-app-tauri-rust-svelte/
+
+**npm:** https://www.npmjs.com/package/design-app-tauri-rust-svelte
+
 **Idiomas:** [English](README.md) · Español
 **Publicación:** [Guía para publicar en npm desde Debian](PUBLISHING.md)
 
@@ -78,6 +82,6 @@ Design App se distribuye bajo los términos propietarios de [`LICENSE`](LICENSE)
 
 ## Versión y publicación
 
-Versión **1.1.1**. El paquete está preparado, pero **todavía no se ha publicado en npm**. Consulta [PUBLISHING.md](PUBLISHING.md) para seguir el proceso desde Debian.
+Versión **1.1.1**, publicada en npm. La web del proyecto se configura mediante GitHub Pages. Consulta [PUBLISHING.md](PUBLISHING.md) para seguir el proceso desde Debian.
 
 [@kathennn](https://github.com/kathennn)

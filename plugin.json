@@ -2,18 +2,22 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "design-app-tauri-rust-svelte",
   "version": "1.1.1",
-  "description": "A modular software-engineering assistant for researching, architecting, building, testing, documenting, and maintaining desktop applications with Tauri 2, Rust, Svelte 5, TypeScript, Vite, and optionally SvelteKit.",
+  "description": "Six specialist AI Agent Skills for researching, architecting, implementing, analyzing, managing and documenting Tauri 2, Rust, Svelte 5, TypeScript and Vite desktop applications, with a cross-agent npm installer.",
   "author": {
     "name": "kathennn"
   },
   "keywords": [
+    "agent-skills",
+    "ai-coding-agent",
     "tauri",
+    "tauri-2",
     "rust",
     "svelte",
-    "sveltekit",
+    "svelte-5",
     "typescript",
-    "desktop",
-    "full-stack",
+    "vite",
+    "desktop-app",
+    "desktop-app-development",
     "software-engineering"
   ],
   "extensions": {

@@ -1,29 +1,41 @@
 {
   "name": "design-app-tauri-rust-svelte",
   "version": "1.1.1",
-  "description": "Cross-agent installer and Agent Skills pack for Tauri 2, Rust, Svelte 5 and TypeScript engineering.",
+  "description": "Six AI Agent Skills and a cross-agent npm installer for Tauri 2, Rust, Svelte 5, TypeScript and Vite desktop app development.",
   "license": "SEE LICENSE IN LICENSE",
   "author": "kathennn",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kathennn/design-app-tauri-rust-svelte.git"
   },
-  "homepage": "https://github.com/kathennn/design-app-tauri-rust-svelte#readme",
+  "homepage": "https://kathennn.github.io/design-app-tauri-rust-svelte/",
   "bugs": {
     "url": "https://github.com/kathennn/design-app-tauri-rust-svelte/issues"
   },
   "keywords": [
     "agent-skills",
-    "ai-agents",
+    "ai-agent",
+    "ai-coding-agent",
+    "coding-agent",
     "claude-code",
     "codex",
     "cursor",
     "gemini-cli",
+    "github-copilot",
     "opencode",
+    "cline",
+    "windsurf",
     "tauri",
+    "tauri-2",
     "rust",
     "svelte",
-    "typescript"
+    "svelte-5",
+    "typescript",
+    "vite",
+    "desktop-app",
+    "desktop-app-development",
+    "software-engineering",
+    "cross-platform"
   ],
   "engines": {
     "node": ">=18"
