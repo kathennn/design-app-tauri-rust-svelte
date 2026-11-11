@@ -9,7 +9,6 @@ Design App is a portable Agent Skills package for engineering desktop applicatio
 
 **npm:** https://www.npmjs.com/package/design-app-tauri-rust-svelte
 
-**Languages:** English · [Español](README.es.md)
 **Publishing guide:** [Publish to npm from Debian](PUBLISHING.md)
 
 ## One-command installation
