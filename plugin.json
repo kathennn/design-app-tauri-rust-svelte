@@ -1,0 +1,40 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "design-app-tauri-rust-svelte",
+  "version": "1.0.0",
+  "description": "A modular software-engineering assistant for researching, architecting, building, testing, documenting, and maintaining desktop applications with Tauri 2, Rust, Svelte 5, TypeScript, Vite, and optionally SvelteKit.",
+  "author": {
+    "name": "kathennn"
+  },
+  "keywords": [
+    "tauri",
+    "rust",
+    "svelte",
+    "sveltekit",
+    "typescript",
+    "desktop",
+    "full-stack",
+    "software-engineering"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Design App Tauri-Rust-Svelte",
+        "shortDescription": "Build Tauri + Rust + Svelte",
+        "longDescription": "A private, autonomous, modular software-engineering assistant. It coordinates six specialized skills to discover requirements, research technical choices, design modular architecture, implement frontend and backend, analyze quality, manage delivery, and maintain complete project documentation.",
+        "developerName": "kathennn",
+        "category": "Developer tools",
+        "capabilities": [
+          "Code",
+          "Research",
+          "Documentation"
+        ],
+        "defaultPrompt": [
+          "Help me design and build a desktop application from scratch with Tauri 2, Rust, and Svelte.",
+          "Inspect my existing Tauri and Svelte project, plan the next implementation slice, and execute it safely.",
+          "Review my application architecture, code quality, security, tests, and release readiness."
+        ]
+      }
+    }
+  }
+}
